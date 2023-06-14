@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <center>
+        <h1>KELAS</h1>
+
+    </center>
+    <h2>RUANGAN</h2>
+    {%for judul in title%}
+    <li>{{ judul }}</li>
+    {%endfor%}
+
+
+    {{pemilik}}
+
+{% endblock %}
